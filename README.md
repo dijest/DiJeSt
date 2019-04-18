@@ -8,16 +8,25 @@ With a selection of case study projects and collaborations, tools and tutorials 
 
 ## READ
 Optical character recognition (OCR), OCR correction and model training for texts printed in the Hebrew letter in the various Jewish languages. We plan to:
-* create ground truth with https://transkribus.eu, JOCHRE, Escriptorium
-* provide conversions between open access and open source tools to encourage flow of ground truth data ((page.xml, alto(2, 4 and more)
+* create ground truth sets with https://transkribus.eu, JOCHRE, possibly also Escriptorium
+* suggest conversions between open access and open source tools to encourage flow of ground truth data ((page.xml, alto(2, 4 and more)
 
-## ANALYZE
-Extracting information from text, structuring it and connecting it to a network of knowledge on People, Places, Publications and books in Jewish History. We hope to:
-* create tutorials on extracting and structuring information (e.g. with Recogito, using Regular Expressions)
+## PROCESS and ANALYZE
+The data we curate and process will be made available for anyone to use. Moreover, we are building a live, collaborative repository of data: people, places, books and works relevant to Jewish Studies, encoraging any future project to use and contribute to it. 
+Extracting information from text, structuring it and connecting it to  We plan to:
 * develop tools for update, correction, linking and addition to the DIJEST LOD repository, and for manual, automated and moderated detection and extraction of data from texts (complementary to Wikidata and recogito, respectively)
+* create tutorials on extracting data and structuring information.
+
  
 ## DISSEMINATE
-Tutorials for visualizing, presenting and sharing the data and the knowledge gained from it.
+
+Finally, we complement the pipeline by offering tutorials for visualizing, presenting and sharing the data and the knowledge gained from it.
 
 # The team
+* Sinai Rusinek, project leader
+* Raphi Halff
+* Adir Gupte
 # collaborators
+* Yael Netzer
+* Ephraim Berkovitch
+* Oren Mishali
