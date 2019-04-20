@@ -12,6 +12,4 @@ Recommend against using the ‘region’ entities, except אזור the settlemen
 Starred and flagged items need fixing the reconciliation between nli and kima
 We removed misc column (was empty)
 
-To the library
-* Entity 000633788 (Tswaing Meteorite Crater) is named מכטש in Hebrew instead of מכתש.
-* I flagged a few additional apparent errors where a hebrew primary name is actually not hebrew, or where the term ‘region’ is used awkwardly in the primary form
+
