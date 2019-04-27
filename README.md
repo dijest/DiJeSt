@@ -24,13 +24,13 @@ Finally, we complement the pipeline by offering tutorials for visualizing, prese
 
 # Contributors
 * Sinai Rusinek, project leader
-* Yael Netzer, lead contributor 
 * Ephraim Berkovitch, lead contributor https://github.com/ephraimberkovitch 
 * Raphi Halff, team member
 * Adir Gupte, team member
 
 # Collaborations
-* Oren Mishali, 
+* Yael Netzer, DICTA 
+* Oren Mishali, Lab Engineer, Technion Data and Knowledge Laboratory (TDK) http://www.cs.technion.ac.il/~omishali/
 * Assaf Arieli,
 * Ben Kiessling
 
