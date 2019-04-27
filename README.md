@@ -36,4 +36,4 @@ Finally, we complement the pipeline by offering tutorials for visualizing, prese
 * Ben Kiessling, Robin Tissot, Daniel Stoekl, https://escripta.hypotheses.org
 * Rainer Simon, Pelagios, https://rsimon.github.io/
 
-(to the project, not necessarily directly to the repository)
+(the names listed here are of contributors to the project in general, not necessarily directly to the repository)
