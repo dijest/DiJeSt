@@ -22,15 +22,18 @@ Extracting information from text, structuring it and connecting it to  We plan t
 
 Finally, we complement the pipeline by offering tutorials for visualizing, presenting and sharing the data and the knowledge gained from it.
 
-# Contributors
+# Contributors and collaborators
 * Sinai Rusinek, project leader
 * Ephraim Berkovitch, lead contributor https://github.com/ephraimberkovitch 
+* Yael Netzer, DICTA, lead contributor 
+* Kepa J. Rodrigues, LOD consultant https://www.xplace.com/il/en/u/keparodriguez
 * Raphi Halff, team member
 * Adir Gupte, team member
+* Michel Jalfon, team member
 
-# Collaborations
-* Yael Netzer, DICTA 
 * Oren Mishali, Lab Engineer, Technion Data and Knowledge Laboratory (TDK) http://www.cs.technion.ac.il/~omishali/
-* Assaf Arieli,
-* Ben Kiessling
+* Assaf Urieli, https://github.com/urieli
+* Ben Kiessling, Robin Tissot, Daniel Stoekl, https://escripta.hypotheses.org
+* Rainer Simon, Pelagios, https://rsimon.github.io/
 
+(to the project, not necessarily directly to the repository)
