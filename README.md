@@ -22,11 +22,15 @@ Extracting information from text, structuring it and connecting it to  We plan t
 
 Finally, we complement the pipeline by offering tutorials for visualizing, presenting and sharing the data and the knowledge gained from it.
 
-# The team
+# Contributors
 * Sinai Rusinek, project leader
-* Raphi Halff
-* Adir Gupte
-# collaborators
-* Yael Netzer
-* Ephraim Berkovitch
-* Oren Mishali
+* Yael Netzer, lead contributor 
+* Ephraim Berkovitch, lead contributor https://github.com/ephraimberkovitch 
+* Raphi Halff, team member
+* Adir Gupte, team member
+
+# Collaborations
+* Oren Mishali, 
+* Assaf Arieli,
+* Ben Kiessling
+
