@@ -1,3 +1,4 @@
+This will be the data storage for the project which is currently presented here http://dijest.net/hello-world/
 # DiJeSt: Digitizing Jewish studies
 
 Supported by Rothschild Foundation Hanadiv Europe, DiJeSt is an incubator for digital humanities work in Jewish studies. 
