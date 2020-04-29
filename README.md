@@ -8,9 +8,8 @@ We are adapting a pipeline of cutting edge tools and platforms which will enable
 With a selection of case study projects and collaborations, tools and tutorials we will share the know how and knowledge that enables empowering and transforming the core activities of the scholar:  Reading, analyzing and disseminating. 
 
 ## READ
-Optical character recognition (OCR), OCR correction and model training for texts printed in the Hebrew letter in the various Jewish languages. We plan to:
-* create ground truth sets with https://transkribus.eu, JOCHRE, possibly also Escriptorium
-* suggest conversions between open access and open source tools to encourage flow of ground truth data ((page.xml, alto(2, 4 and more)
+Optical character recognition (OCR), OCR correction and model training for texts printed in the Hebrew letter in the various Jewish languages. We created ground truth sets with https://transkribus.eu, where the DiJeSt model is now publicly open.
+* to do:  conversions between open access and open source tools to encourage flow of ground truth data ((page.xml, alto(2, 4 and more)
 
 ## PROCESS and ANALYZE
 The data we curate and process will be made available for anyone to use. Moreover, we are building a live, collaborative repository of data: people, places, books and works relevant to Jewish Studies, encoraging any future project to use and contribute to it. 
