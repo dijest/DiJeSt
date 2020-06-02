@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <grammar>
+        <gramGrp>
+            <gram type="pos" value="nm" norm="NOUN">ש"ז</gram>
+        </gramGrp>
+        <gramGrp>
+            <gram type="pos" value="nf" norm="NOUN">ש"נ</gram>
+        </gramGrp>
+
+        <gramGrp>
+            <gram type="pos" value="am" norm="ADJ">ת"ז</gram>
+        </gramGrp>
+        <gramGrp>
+            <gram type="pos" value="af" norm="NOUN">ת"נ</gram>
+        </gramGrp>
+
+        <gramGrp>
+            <gram type="pos" value="f" norm="NOUN">ש"נ</gram>
+        </gramGrp>
+        <gramGrp>
+            <gram type="pos" value="f" norm="VERB">פ״ע</gram>
+        </gramGrp>
+    </grammar>
+
+    <xmlid> BY_701 MAIN ENTRY BY_701-1.1 BY_701-RE1 RELATED ENTRY "BY_701-NOTE1" n="1" BY26711GR
+        WORD FAMILY </xmlid>
+    <regex> (–[א-ת]\)) </regex> <replaces>א) </replaces><with>sense</with>
+    <regex> (\s.+$\n.+)</regex><replaces> </replaces><with>cit,quote</with>
+    <regex>(\(.+\))(\.)</regex><replaces> </replaces><with>bibl</with>
+</rules>

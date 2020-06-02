@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../GitHub/lexicalresources/Schemas/TEILex0/out/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TEI Lex-0 samples for Ben Yehuda Dictionary</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>מילון העברית הישנה והחדשה מאת אליעזר בן-יהודה</title>
+               <author>Eliezer Ben Yehudah</author><publisher/><date when="1913">תרע"ג
+               1913</date></bibl>
+            <bibl/>
+            <bibl><title>מילון העברית הישנה והחדשה מאת אליעזר בן-יהודה</title>
+               <ref type="bibliography" target="https://benyehuda.org"/></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="BY_701" xml:lang="he" type="mainEntry">
+            <form type="lemma"><orth>אֲבַטִּחַ</orth></form>
+            <!--<anchor corresp="#BY_701-NOTE1">1</anchor>-->
+            <pc>,</pc>
+            <form type="variant"><orth>אֲבַטִּיחַ</orth></form>
+            <pc>,</pc>
+            <gramGrp><gram type="pos" value="nm" norm="NOUN">ש"ז</gram></gramGrp>
+            <pc>,</pc>
+            <form type="inflected">
+               <gramGrp><gram type="number" value="pl">מ"ר</gram></gramGrp>
+               <form type="inflected"><orth>אֲבַטִּחִים</orth></form>
+               <pc>,</pc>
+               <form type="inflected"><orth>אֲבַטִּיחִים</orth></form>
+            </form>
+            <pc>,</pc>
+            <pc>—</pc>
+            <sense xml:id="BY_701-S1">
+               <def> פרי אדמה מלא משקה, ממין הקשואים והדלועים </def>
+               <pc>,</pc>
+               <cit type="translationEquivalent" xml:lang="de">
+                  <form type="lemma"><orth>wassermelone</orth></form>
+               </cit>
+               <pc>;</pc>
+               <cit type="translationEquivalent" xml:lang="fr">
+                  <form type="lemma">
+                     <orth>melon</orth>
+                  </form>
+               </cit>
+               <pc>,</pc>
+               <cit type="translationEquivalent" xml:lang="fr">
+                  <form type="lemma">
+                     <orth>pastèque</orth>
+                  </form>
+               </cit>
+               <pc>;</pc>
+               <cit type="translationEquivalent" xml:lang="en">
+                  <form type="lemma">
+                     <orth>water Melon</orth>
+                  </form>
+               </cit>
+               <pc>:</pc>
+               <cit type="example">
+                  <quote> זכרנו את הדגה אשר נאכל במצרים חנם את הקשאים ואת הָאֲבַטִּחִים ואת החציר
+                     ואת הבצלים ואת השומים</quote>
+                  <ref
+                     target="https://www.sefaria.org.il/Bemidbar.11.5 https://he.wikisource.org/wiki/קטגוריה:במדבר_יא_ה"
+                     type="bibliography">
+                     <bibl type="biblical">(<title>במד'</title><citedRange> יא
+                        ה</citedRange>)</bibl></ref>
+               </cit>
+               <pc>.</pc>
+               <pc>—</pc>
+               <lbl>ובתו"מ:</lbl>
+               <cit type="example">
+                  <quote> איזהו גרנן למעשרות וכו' אבטיח משישלק </quote>
+               </cit>
+               <ref
+                  target="https://www.sefaria.org/Mishnah_Maasrot.1.5 https://he.wikisource.org/wiki/משנה_מעשרות_א_ה"
+                  type="bibliography">
+                  <bibl type="mishnaic">(<title>מעשר'</title>
+                     <citedRange>א ה</citedRange>)</bibl></ref>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>האומר לחבירו הילך איסר זה וכו' באבטיח שאבור לי סופת ואוכל </quote>
+                  <bibl type="mishnaic">(שם <citedRange>ב ו</citedRange>)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>ובירק הקשואים והדלועים והאבטיחים</quote>
+                  <bibl type="mishnaic"> (שם<citedRange> א ד</citedRange>)</bibl>
+               </cit>
+               <pc>.</pc>
+               <pc>—</pc>
+               <xr type="related">
+                  <ref type="entry">שריק</ref>
+                  <pc>,</pc>
+                  <!--<gloss>מי האבטיח</gloss>
+-->
+                  <pc>,</pc>
+                  <lbl>עי' זה</lbl>
+                  <pc>.</pc>
+               </xr>
+            </sense>
+            <pc>—</pc>
+            <entry xml:id="BY_701-RE1" xml:lang="he" type="relatedEntry">
+               <pc>°</pc>
+               <form type="lemma"><orth>אֲבַטִּיחַ הוֹדִי</orth></form>
+               <pc>,</pc>
+               <sense xml:id="BY_701-1">
+                  <def>מין צמח יגדל בהודו ופריו דומה קצת בצורתו לאבטיח, ומלא משקה משיב נפש </def>
+                  <pc>,</pc>
+                  <cit type="translationEquivalent" xml:lang="la">
+                     <form type="lemma">
+                        <orth>melocactus</orth>
+                     </form>
+                  </cit>
+                  <pc>:</pc>
+               </sense>
+               <cit type="example">
+                  <quote> או יעשה האמבטי כלו מסחיטת הדלעת וכו' או מאבטיח הנדי</quote>
+                  <bibl>(<title>קאנון</title><citedRange> ג ב ג</citedRange>)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>וישתה העלול החלב החלוב שיעור נכון אם לא יהיה שם קדחת ומי השעורים ומי הדלעת
+                     ומי האבטיח ההנדי</quote>
+                  <bibl>(שם)</bibl>
+               </cit>
+               <pc> .</pc>
+               <note xml:id="BY_701-NOTE1" n="1"> מארמית וסורית וערבית נראה שהתנועה האחרונה ארוכה.
+                  בארמ' אֲבַטִּיחָא, מ"ר -חַיָּא, בסור' בטיחא, בערב בִטִּיח' (بِطِّيخ) ובפי ההמון גם
+                  בַטִּיח' (بَطِّيخ). ויש סֹברים כי זה שם שאול מלשון מצרית, ולפי דעת פרנקל (Aram.
+                  Frembw.) השם בטִיח' בערב' שאול מארמית, וקצת סימן לדבר שהוא שאול הוא שנהוג בערב' גם
+                  השם המסורס טִבִּיח', כאלו נגזר מן שרש טבח' ממשמעת בשל. — ואין חבר למשקל זה זולתי
+                  אֲבַעְבּע. ואם האלף אינה סי' המשקל אלא נוספה או מהשרש, יש קצת דמיון למשקל זה
+                  בהשמות חֲנָמָל, חֲבָצֶלֶת. </note>
+            </entry>
+         </entry>
+         <entry xml:id="BY26711GR" xml:lang="he" type="wordFamily">
+            <form type="lemma"><orth> זָהַר </orth></form>
+            <xr>
+               <ref type="entry" target="#BYforZohar">פֹעל מן זֹהַר</ref>
+            </xr>
+            <pc>.</pc>
+            <pc>–</pc>
+            <entry xml:id="BY26711" xml:lang="he" type="mainEntry">
+                              <gramGrp ana="#hif'il"> הִפע'</gramGrp><pc>,</pc>
+               <form type="lemma"><orth>הִזְהִיר</orth></form>
+               <pc>,</pc>
+               <pc>–</pc>
+               <sense xml:id="BY26711-1">
+                  <pc>א)</pc>
+                  <def> האציל זֹהַר</def>
+                  <pc>,</pc>
+                  <cit type="translationEquivalent" xml:lang="de">
+                     <form type="lemma">
+                        <orth>glänzen</orth>
+                     </form>
+                  </cit>
+                  <pc>;</pc>
+                  <cit type="translationEquivalent" xml:lang="fr">
+                     <form type="lemma">
+                        <orth>briller</orth>
+                     </form>
+                  </cit>
+                  <pc>;</pc>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <form type="lemma">
+                        <orth>to shine</orth>
+                     </form>
+                  </cit>
+                  <pc>:</pc>
+
+                  <cit type="example">
+                     <quote> והמשכילים יַזְהִרוּ כזהר הרקיע ומצדיקי הרבים ככוכבים לעולם ועד </quote>
+                     <bibl>(<title>דני'</title>
+                        <citedRange>יב ג</citedRange>)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> עיניך יאירו במאור התורה ופניך יזהירו כזוהר הרקיע </quote>
+                     <bibl>(<title>ברכ'</title>
+                        <citedRange>יז</citedRange><pc>.</pc>)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>מה הכוכבים מזהירין בכל הרקיע כך הם (ישראל) מזהירין לעתיד לבא</quote>
+                     <bibl>(<title>מד"ר במד'</title><citedRange> ב</citedRange>)</bibl>
+                  </cit>
+                  <cit type="example">
+                     <pc>.</pc>
+                     <quote> סוטה ששתת והיתה טהורה ה"ז מתחזקת ופניה מזהירות</quote>
+                     <bibl>(רמב"ם, סוט' ג כא)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <pc>–</pc>
+                  </sense><sense xml:id="BY26711-2"><gramGrp ana="Poal_Yoze">ובמשמ' פ"י</gramGrp><pc>,</pc>
+                  <def>
+                      עשה שיזהיר, שיאיר</def>
+                  <pc>:</pc>
+                  <cit type="example">
+                     <quote>ובהגיעו (אור השמש) לחלקים ההם (הכתמים ברקיע) הוא מכה עליה בכח ומאיר אותם
+                        ומזהירם </quote>
+                     <bibl>(תרג' אבן סיני, השמים והעולם יד)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <pc>–</pc>
+               </sense>
+               <pc>ב)</pc>
+               <sense xml:id="BY26711-3">
+                  <def>הזהיר את פלוני דבר, הודיע לו ובאר לו וצוה לו לעשותו</def>
+                  <pc>,</pc>
+                  <cit type="translationEquivalent" xml:lang="de">
+                     <form type="lemma">
+                        <orth>empfehlen</orth>
+                     </form>
+                  </cit>
+                  <pc>;</pc>
+                  <cit type="translationEquivalent" xml:lang="fr">
+                     <form type="lemma">
+                        <orth>récommander</orth>
+                     </form>
+                  </cit>
+                  <pc>;</pc>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <form type="lemma">
+                        <orth>to recommend</orth>
+                     </form>
+                  </cit>
+                  <pc>:</pc>
+                  <cit type="example">
+                     <quote>וְהִזְהַרְתָּה אתהם את החקים ואת התרת והודעת להם את הדרך ילכו בה</quote>
+                     <bibl>(<title>שמות</title>
+                        <citedRange>יח כ</citedRange>)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <pc>–</pc>
+
+               </sense>
+               <sense xml:id="BY26711-4">
+                  <pc>ג)</pc>
+                  <def> הזהיר את פלוני, עשה לו אַזְהָרָה, הודיעו כי דבר רע עתיד לבוא עליו, או אמר לו
+                     לעשות דבר פלוני או לא לעשותו ואם אין ירע לו מזה,</def>
+                  <cit type="translationEquivalent" xml:lang="de">
+                     <form type="lemma">
+                        <orth>warnen</orth>
+                     </form>
+                  </cit>
+                  <pc>;</pc>
+                  <cit type="translationEquivalent" xml:lang="fr">
+                     <form type="lemma">
+                        <orth>avertir</orth>
+                     </form>
+                  </cit>
+                  <pc>;</pc>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <form type="lemma">
+                        <orth>to warn</orth>
+                     </form>
+                  </cit>
+                  <pc>:</pc>
+                  <cit type="example">
+                     <quote> וישלח מלך ישראל אל המקום אשר אמר לו איש האלהים וְהִזְהִירֹה ונשמר
+                        שם</quote>
+                     <bibl>(מ"ב ו י)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>וראה (הצופה) את החרב באה על הארץ ותקע בשופר וְהִזְהִיר את העם </quote>
+                     <bibl>(יחזק' לג ג)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> ואתה כי הִזְהַרְתָּ רשע ולא שב מרשעו ומדרכו הרשעה הוא בעונו ימות </quote>
+                     <bibl>(שם ג יט)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> וכל ריב אשר יבוא עליכם מאחיכם וכו' וְהִזְהַרְתֶּם אתם ולא יאשמו ליי' </quote>
+                     <bibl>(דהי"ב יט י)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> באמרי לרשע מות תמות ולא הִזְהַרְתּוֹ</quote>
+                     <bibl>(יחזק' ג יח)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> כי הִזְהַרְתּוֹ צדיק לבלתי חטא </quote>
+                     <bibl>(שם כא)</bibl>
+                  </cit>
+                  <pc>. </pc>
+                  <pc>–</pc>
+                  <cit type="example">
+                     <quote>וְהִזְהִירוֹ מִן דבר: ולא דברת לְהַזְהִיר רשע מדרכו הרשעה</quote>
+                     <bibl>(יחזק' ג יח)</bibl>
+                  </cit>
+                  <pc>.</pc>
+
+                  <cit type="example">
+                     <quote> ואתה כי הִזְהַרְתָּ רשע מדרכו לשוב ממנה ולא שב מדרכו הוא בעונו
+                        ימות</quote>
+                     <bibl> (שם לג ט)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>רביעית דם נתתי בכם על עסקי דם הזהרתי אתכם ראשית קראתי אתכם על עסקי ראשית
+                        הזהרתי אתכם</quote>
+                     <bibl> (שבת לב.)</bibl>
+                  </cit>
+                  <pc>.</pc>
+
+                  <cit type="example">
+                     <quote> אמר לו הקב"ה לישעיה לא תהא סבור שמא לא הזהרתי אותם על ע"ז תחלה </quote>
+                     <bibl>(מד"ר דבר' ב)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>אמר לו הקב"ה למשה לא בשביל שאני צריך לנרות הזהרתיך על הנרות אלא לזכותם </quote>
+                     <bibl>(שם במד' טו)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> כמה גדיים יש לך ואין אתה מזהירנו ועל הצבי הזה בכל יום ויום את
+                        מצוינו</quote>
+                     <bibl>(שם ח)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>אמר הקב"ה למשה הזהר לישראל על מצות הפסח</quote>
+                     <bibl>(מד"ר שמות יט)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> ואתה בני איש טוב וממשפחה מיוחסת וטובה אתה ומזהירו ומשיבו מדרך
+                        רעה</quote>
+                     <bibl>(תנחומא בלק א)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <pc>–</pc>
+                  <cit type="example">
+                     <quote>ואמר המשורר: כה יעשה לי אל וכה יוסיף אם אהיה מזין לקול מזהיר, לעזוב צבי
+                        החן אשר פניו דומים לעין הכוס והוא מזהיר</quote>
+                     <bibl>(רמב"ע, תרשיש ב ס)</bibl>
+                  </cit>
+                  <pc>.</pc>
+               </sense>
+            </entry>
+            <entry type="relatedEntry" xml:id="BY26711RE1" xml:lang="he">
+               <pc>–</pc><gramGrp ana="Kal">קל</gramGrp><pc>, </pc>
+               <!--°-->
+               <form type="inflected"><orth>זָהַר</orth></form>
+               <pc>,</pc>
+               <pc>–</pc>
+               <pc>א)</pc>
+               <sense xml:id="BY26711RE1-1">
+                  <def> כמו הזהיר במשמ' האיר אור</def>
+                  <cit type="example">
+                     <quote> : ודברו כאש ונוצציה הרבה מצוות בכל דבור זוהרות </quote>
+                     <bibl>(אזה' לרסע"ג, קובץ מעג"ק)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote>ערך מאורי מופתי עששיות זוהרות בעיפתו </quote>
+                     <bibl>(יוצר שבת ב אחה"פ, ארנן)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <pc>–</pc>
+                  <cit type="example">
+                     <quote>ובהשאלה: וכאשר סבבה (השמש) בטלה תהפוך הזמן אל בריאות ונעימות וזהרה הארץ
+                        וכאשר סבבה בשור נוסף החום</quote>
+                     <bibl> (RSO, III, 3, 234, תרג' אלפרגני)</bibl>
+                  </cit>
+                  <pc>.</pc>
+                  <cit type="example">
+                     <quote> כי המעופפים הקטנים האלה אספו להם שלל צבעים מכל אשר מצאו בחדר הורתם הטבע
+                        הנדיבה זוהרים ממרחק כמוצק אבנים יקרות</quote>
+                     <bibl>(תוה"א, יונקי הדבש טו קכו)</bibl>
+                  </cit>
+               </sense>
+               <pc>.</pc>
+
+               <pc>–</pc>
+               <pc>ב)</pc>
+               <cit type="example">
+                  <quote> כמו הזהיר במשמ' צוה: זהרוּ בזב ומגעותיו ובהטהרו הבו מעליכם, רחצו הזכו
+                     הסירו רוע מעלליכם</quote>
+                  <bibl>(אזה' לרסע"ג, קובץ מע"ג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>זויות חצר ואמצעיים, וגג יציע ורפת ולולים, ומתבן ואוצרות יין ושמן, חכמי עם
+                     נדיבות, זהרו לבדקם</quote>
+                  <bibl>(ר"י הלוי, אזה' לשבה"ג, אגר' שד"ל CCIX)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>זַהֲרוּ לדחות פסח מבדו, ומאדו ראש השנה </quote>
+                  <bibl>(יוצר שבת הפסקה, את פני מלך)</bibl>
+               </cit>
+               <pc>.</pc>
+            </entry><pc>–</pc>
+            <entry xml:id="BY26711RE2" xml:lang="he" type="relatedEntry">
+
+               
+               <gramGrp ana="pa'ul">ופָעוּל</gramGrp><pc>,</pc>
+               <def>כמו זָהִיר</def>
+               <pc>:</pc>
+               <cit type="example">
+                  <quote> ללמדך כמה היו זהורים במצות </quote>
+                  <bibl>(הלכ' פסוק', לולב)</bibl>
+               </cit>
+               <pc>.</pc>
+            </entry>
+            <pc>–</pc>
+            <entry xml:id="BY26711RE3" xml:lang="he" type="relatedEntry">
+               <gramGrp ana="Nif'al">נִפע'</gramGrp><pc>,</pc>
+               <form type="lemma"><orth>נִזְהַר</orth><pc>,</pc>
+                  <orth>נִזְהָר</orth></form>
+               <pc>,</pc>
+               <pc>–</pc>
+               <cit type="example">
+                  <quote> שָׂם לבו לדבר ושמר א"ע ממנו ונמנע מעשותו, וכדומה: ואתה כי הזהרתו צדיק
+                     לבלתי חטא צדיק והוא לא חטא חיו יחיה כי נִזְהַר </quote>
+                  <bibl>(יחזק' ג כא)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> ושמע השמע את קול השופר ולא נִזְהָר ותבוא חרב ותקחהו דמו בראשו יהיה וכו'
+                     והוא נִזְהָר <!--<anchor corresp="#BY_26711-NOTE1">1</anchor>--> נפשו מלט וכו'
+                     ולא תקע בשופר והעם לא נִזְהָר </quote>
+                  <bibl>(שם לג ד=ו)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> טוב ילד מסכן וחכם ממלך זקן וכסיל אשר לא ידע לְהִזָּהֵר עוד </quote>
+                  <bibl>(קהל' ד יג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> ויתר מהמה בני הִזָּהֵר עשות ספרים הרבה אין קץ </quote>
+                  <bibl>(שם יב יב)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> מלמדין אותו הזהר שלא תתחיל מפניך שמא תכוה</quote>
+                  <bibl>(יומ' נב:)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> בא לקללו אמר לו הקב"ה הזהר שאם את מקללו לנפשך את מקלל</quote>
+                  <bibl>(מד"ר בראש' סז)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>הזהר שלא ילקה אותו האיש בצרעת</quote>
+                  <bibl>(שם צג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> אמר פרעה ליוסף אע"פ שאמרתי לך אתה תהיה על ביתי וגו' שעשיתיך מלך על כולם
+                     הזהר שתנהוג בי כבוד והמליכני עליך </quote>
+                  <bibl>(שם במד' יד)</bibl>
+               </cit>
+               <pc>.</pc>
+               <pc>–</pc>
+               <cit type="example">
+                  <quote> ומ"ר: חכמים הזהרו בדבריכם שמא תחובו חובת גלות</quote>
+                  <bibl>(אבות א יא)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>אמר להם (ר"א לתלמידיו) הזהרו בכבוד חבריכם</quote>
+                  <bibl>(ברכ' כח:)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>אמר להם הזהרו שלא יטעה אתכם יצר הרע</quote>
+                  <bibl>(ספרי, עקב מג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> אמר להם הזהרו שלא תמרדו בהקב"ה </quote>
+                  <bibl>(שם)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> צאו והזהרו כל אחד איש בכבוד חברו </quote>
+                  <bibl>(דא"ר ג)</bibl>
+               </cit>
+               <pc>.</pc>
+            </entry>
+            <pc>.</pc>
+            <pc>–</pc>
+            <entry type="relatedEntry" xml:id="BY26711RE4" xml:lang="he">
+               <gramGrp ana="huf'al">הֻפעל</gramGrp>
+               <pc>,</pc>
+               <!--*-->
+               <form type="inflected"><orth>הֻזְהַר, מוּזְהַר</orth></form>
+               <pc>,</pc>
+               <pc>–</pc>
+               <cit type="example">
+<def>                   שהזהירו אותו
+</def>                    <pc>:</pc><quote> אמר להם אף אני מוזהר כשם שאמרתי לך וקבלת כך אמור להם
+                     ויקבלו</quote>
+                  <bibl>(ספרא אחרי קלח)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> לא ראי דיין כראי נשיא ולא ראי נשיא כראי דיין הצד השווה שבהן שהם בעמך ואתה
+                     מוזהר על קללתם</quote>
+                  <bibl>(שם קדוש' קד)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> לא פורע (המשוח מלחמה) ולא פורם ולא מטמא לקרוביו ומצווה על הבתולה ומוזהר על
+                     האלמנה</quote>
+                  <bibl>(יומא עג.)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> ואין (הכה"ג) מטמא לקרובים ומוזהר על הבתולה</quote>
+                  <bibl>(הור' יב:)</bibl>
+               </cit>
+               <pc>.</pc>
+               <pc>–</pc>
+               <cit type="example">
+                  <quote>ומ"ר: לא זה הוא חמץ שמוזהרים עליו בבל יראה ובבל ימצא</quote>
+                  <bibl>(פסח' ג ג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> לרבות את הנכרים שמוזהרין על העריות כישראל </quote>
+                  <bibl>(חגי' יא:)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> ויאמר קומו צאו אמר לו משה מוזהרין אנו שלא לצאת אלא בפרהסיא </quote>
+                  <bibl>(מכי' בא, מס' דפסח' יג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>קודם מתן תורה היינו מוזהרים על שפיכות דמים </quote>
+                  <bibl>(שם משפט', נזיק' ד)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>ללמדך שהגדולים מוזהרין על ידי הקטנים והם נענשים על ידיהם אם לא יוכיחו
+                     אותם</quote>
+                  <bibl> (מד"ר במד' י)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote>לא הוזהרו כשרות להנשא לפסולין</quote>
+                  <bibl>(יבמ' פד:)</bibl>
+               </cit>
+               <pc>.</pc>
+
+            </entry>
+
+            <pc>–</pc>
+            <entry xml:id="BY26711RE5" xml:lang="he" type="relatedEntry">
+            <gramGrp ana="Pi'el">פִע'</gramGrp>
+            <pc>,</pc>
+            <!--°-->
+            <form type="inflected"><orth>זִהֵר</orth></form>
+            <pc>,</pc>
+            <pc>–</pc>
+            <cit type="example">
+               <quote> כמו הִזְהִיר במשמ' צִוָּה: זיהר קחת תרומה, נטות לו אוהל שאנן </quote>
+               <bibl>(אזהר' לרסע"ג, קובץ מע"ג)</bibl>
+            </cit>
+            <pc>.</pc>
+            <cit type="example">
+               <quote> זִיהֵר שפודין חוץ מסכה, ואכילה ושתיה בתוך סכוכה </quote>
+               <bibl>(יוצר שבת חוה"מ סכות, אפאר)</bibl>
+            </cit>
+            <pc>.</pc>
+            <pc>–</pc>
+            <cit type="example">
+               <quote>ובמשמ' האיר: זקק מטלית, זִהֵר טלית, זוה אצטלית, זכרו מנטלית </quote>
+               <bibl>(יוצר שבת ור"ח, אילת השחר)</bibl>
+            </cit>
+            <pc>.</pc>
+            <pc>–</pc>
+         </entry>
+         <entry xml:id="BY26711RE6" xml:lang="he" type="relatedEntry">
+<gramGrp ana="pu'al">פֻע'
+</gramGrp>            <pc>,</pc>
+            <!--°-->
+            <form type="inflected"><orth>זֻהַר></orth><pc>,</pc><orth> מזוהר</orth></form>
+            <pc>,</pc>
+            <pc>–</pc>
+            <def>מואר בזֹהר</def>
+            <pc>:</pc>
+
+            <cit type="example">
+               <quote>ואם מכל צדי השמש לפנות ערב יהיו כמו עננים אדומים וצחים מזוהרים כשמש הם העננים
+                  יגידו על רוחות חזקות ומעוטות </quote>
+               <bibl>(רזיאל המלאך כ)</bibl>
+            </cit>
+            <pc>.</pc>
+            <note xml:id="BY_26711-note1" n="1"><quote>אמר ריב"ג בהשרשים: ואני חושב כי הקמצות בהם
+                  לפי שהם מעמדים ואפשר שרצו לפאר המלה בעבור הריש כי ראיתים נקדו והוא נזהר נפשו מלט
+                  והוא חולף בקמץ והוא איננו בזקף ולא באתנח ולא בסוף פסוק</quote>. ע"כ. </note>
+         </entry></entry>
+
+      </body>
+   </text>
+</TEI>
