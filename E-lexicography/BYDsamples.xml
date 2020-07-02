@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../GitHub/lexicalresources/Schemas/TEILex0/out/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="../../lexicalresources/Schemas/TEILex0/out/TEILex0-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,12 +78,12 @@
                <lbl>ובתו"מ:</lbl>
                <cit type="example">
                   <quote> איזהו גרנן למעשרות וכו' אבטיח משישלק </quote>
+                  <ref
+                     target="https://www.sefaria.org/Mishnah_Maasrot.1.5 https://he.wikisource.org/wiki/משנה_מעשרות_א_ה"
+                     type="bibliography">
+                     <bibl type="mishnaic">(<title>מעשר'</title>
+                        <citedRange>א ה</citedRange>)</bibl></ref>
                </cit>
-               <ref
-                  target="https://www.sefaria.org/Mishnah_Maasrot.1.5 https://he.wikisource.org/wiki/משנה_מעשרות_א_ה"
-                  type="bibliography">
-                  <bibl type="mishnaic">(<title>מעשר'</title>
-                     <citedRange>א ה</citedRange>)</bibl></ref>
                <pc>.</pc>
                <cit type="example">
                   <quote>האומר לחבירו הילך איסר זה וכו' באבטיח שאבור לי סופת ואוכל </quote>
@@ -149,7 +149,8 @@
             <pc>.</pc>
             <pc>–</pc>
             <entry xml:id="BY26711" xml:lang="he" type="mainEntry">
-                              <gramGrp ana="#hif'il"> הִפע'</gramGrp><pc>,</pc>
+               <gramGrp ana="#hif'il"> הִפע'</gramGrp>
+               <pc>,</pc>
                <form type="lemma"><orth>הִזְהִיר</orth></form>
                <pc>,</pc>
                <pc>–</pc>
@@ -199,9 +200,11 @@
                   </cit>
                   <pc>.</pc>
                   <pc>–</pc>
-                  </sense><sense xml:id="BY26711-2"><gramGrp ana="Poal_Yoze">ובמשמ' פ"י</gramGrp><pc>,</pc>
-                  <def>
-                      עשה שיזהיר, שיאיר</def>
+               </sense>
+               <sense xml:id="BY26711-2">
+                  <gramGrp ana="Poal_Yoze">ובמשמ' פ"י</gramGrp>
+                  <pc>,</pc>
+                  <def> עשה שיזהיר, שיאיר</def>
                   <pc>:</pc>
                   <cit type="example">
                      <quote>ובהגיעו (אור השמש) לחלקים ההם (הכתמים ברקיע) הוא מכה עליה בכח ומאיר אותם
@@ -352,7 +355,9 @@
                </sense>
             </entry>
             <entry type="relatedEntry" xml:id="BY26711RE1" xml:lang="he">
-               <pc>–</pc><gramGrp ana="Kal">קל</gramGrp><pc>, </pc>
+               <pc>–</pc>
+               <gramGrp ana="Kal">קל</gramGrp>
+               <pc>, </pc>
                <!--°-->
                <form type="inflected"><orth>זָהַר</orth></form>
                <pc>,</pc>
@@ -404,22 +409,27 @@
                   <bibl>(יוצר שבת הפסקה, את פני מלך)</bibl>
                </cit>
                <pc>.</pc>
-            </entry><pc>–</pc>
+            </entry>
+            <pc>–</pc>
             <entry xml:id="BY26711RE2" xml:lang="he" type="relatedEntry">
 
-               
-               <gramGrp ana="pa'ul">ופָעוּל</gramGrp><pc>,</pc>
-               <def>כמו זָהִיר</def>
-               <pc>:</pc>
-               <cit type="example">
-                  <quote> ללמדך כמה היו זהורים במצות </quote>
-                  <bibl>(הלכ' פסוק', לולב)</bibl>
-               </cit>
-               <pc>.</pc>
+
+               <gramGrp ana="pa'ul">ופָעוּל</gramGrp>
+               <pc>,</pc>
+               <sense xml:id="BY26711RE2-1">
+                  <def>כמו זָהִיר</def>
+                  <pc>:</pc>
+                  <cit type="example">
+                     <quote> ללמדך כמה היו זהורים במצות </quote>
+                     <bibl>(הלכ' פסוק', לולב)</bibl>
+                  </cit>
+                  <pc>.</pc>
+               </sense>
             </entry>
             <pc>–</pc>
             <entry xml:id="BY26711RE3" xml:lang="he" type="relatedEntry">
-               <gramGrp ana="Nif'al">נִפע'</gramGrp><pc>,</pc>
+               <gramGrp ana="Nif'al">נִפע'</gramGrp>
+               <pc>,</pc>
                <form type="lemma"><orth>נִזְהַר</orth><pc>,</pc>
                   <orth>נִזְהָר</orth></form>
                <pc>,</pc>
@@ -505,9 +515,9 @@
                <pc>,</pc>
                <pc>–</pc>
                <cit type="example">
-<def>                   שהזהירו אותו
-</def>                    <pc>:</pc><quote> אמר להם אף אני מוזהר כשם שאמרתי לך וקבלת כך אמור להם
-                     ויקבלו</quote>
+                  <def> שהזהירו אותו </def>
+                  <pc>:</pc>
+                  <quote> אמר להם אף אני מוזהר כשם שאמרתי לך וקבלת כך אמור להם ויקבלו</quote>
                   <bibl>(ספרא אחרי קלח)</bibl>
                </cit>
                <pc>.</pc>
@@ -565,50 +575,54 @@
 
             <pc>–</pc>
             <entry xml:id="BY26711RE5" xml:lang="he" type="relatedEntry">
-            <gramGrp ana="Pi'el">פִע'</gramGrp>
-            <pc>,</pc>
-            <!--°-->
-            <form type="inflected"><orth>זִהֵר</orth></form>
-            <pc>,</pc>
-            <pc>–</pc>
-            <cit type="example">
-               <quote> כמו הִזְהִיר במשמ' צִוָּה: זיהר קחת תרומה, נטות לו אוהל שאנן </quote>
-               <bibl>(אזהר' לרסע"ג, קובץ מע"ג)</bibl>
-            </cit>
-            <pc>.</pc>
-            <cit type="example">
-               <quote> זִיהֵר שפודין חוץ מסכה, ואכילה ושתיה בתוך סכוכה </quote>
-               <bibl>(יוצר שבת חוה"מ סכות, אפאר)</bibl>
-            </cit>
-            <pc>.</pc>
-            <pc>–</pc>
-            <cit type="example">
-               <quote>ובמשמ' האיר: זקק מטלית, זִהֵר טלית, זוה אצטלית, זכרו מנטלית </quote>
-               <bibl>(יוצר שבת ור"ח, אילת השחר)</bibl>
-            </cit>
-            <pc>.</pc>
-            <pc>–</pc>
-         </entry>
-         <entry xml:id="BY26711RE6" xml:lang="he" type="relatedEntry">
-<gramGrp ana="pu'al">פֻע'
-</gramGrp>            <pc>,</pc>
-            <!--°-->
-            <form type="inflected"><orth>זֻהַר></orth><pc>,</pc><orth> מזוהר</orth></form>
-            <pc>,</pc>
-            <pc>–</pc>
-            <def>מואר בזֹהר</def>
-            <pc>:</pc>
+               <gramGrp ana="Pi'el">פִע'</gramGrp>
+               <pc>,</pc>
+               <!--°-->
+               <form type="inflected"><orth>זִהֵר</orth></form>
+               <pc>,</pc>
+               <pc>–</pc>
+               <cit type="example">
+                  <quote> כמו הִזְהִיר במשמ' צִוָּה: זיהר קחת תרומה, נטות לו אוהל שאנן </quote>
+                  <bibl>(אזהר' לרסע"ג, קובץ מע"ג)</bibl>
+               </cit>
+               <pc>.</pc>
+               <cit type="example">
+                  <quote> זִיהֵר שפודין חוץ מסכה, ואכילה ושתיה בתוך סכוכה </quote>
+                  <bibl>(יוצר שבת חוה"מ סכות, אפאר)</bibl>
+               </cit>
+               <pc>.</pc>
+               <pc>–</pc>
+               <cit type="example">
+                  <quote>ובמשמ' האיר: זקק מטלית, זִהֵר טלית, זוה אצטלית, זכרו מנטלית </quote>
+                  <bibl>(יוצר שבת ור"ח, אילת השחר)</bibl>
+               </cit>
+               <pc>.</pc>
+               <pc>–</pc>
+            </entry>
+            <entry xml:id="BY26711RE6" xml:lang="he" type="relatedEntry">
+               <gramGrp ana="pu'al">פֻע' </gramGrp>
+               <pc>,</pc>
+               <!--°-->
+               <form type="inflected"><orth>זֻהַר></orth><pc>,</pc><orth> מזוהר</orth></form>
+               <pc>,</pc>
+               <pc>–</pc>
+               <sense xml:id="BY26711RE6-1">
+                  <def>מואר בזֹהר</def>
+                  <pc>:</pc>
 
-            <cit type="example">
-               <quote>ואם מכל צדי השמש לפנות ערב יהיו כמו עננים אדומים וצחים מזוהרים כשמש הם העננים
-                  יגידו על רוחות חזקות ומעוטות </quote>
-               <bibl>(רזיאל המלאך כ)</bibl>
-            </cit>
-            <pc>.</pc>
-            <note xml:id="BY_26711-note1" n="1"><quote>אמר ריב"ג בהשרשים: ואני חושב כי הקמצות בהם
-                  לפי שהם מעמדים ואפשר שרצו לפאר המלה בעבור הריש כי ראיתים נקדו והוא נזהר נפשו מלט
-                  והוא חולף בקמץ והוא איננו בזקף ולא באתנח ולא בסוף פסוק</quote>. ע"כ. </note>
-         </entry></entry>
+                  <cit type="example">
+                     <quote>ואם מכל צדי השמש לפנות ערב יהיו כמו עננים אדומים וצחים מזוהרים כשמש הם
+                        העננים יגידו על רוחות חזקות ומעוטות </quote>
+                     <bibl>(רזיאל המלאך כ)</bibl>
+                  </cit>
+               </sense>
+               <pc>.</pc>
+               <note xml:id="BY_26711-note1" n="1"><quote>אמר ריב"ג בהשרשים: ואני חושב כי הקמצות בהם
+                     לפי שהם מעמדים ואפשר שרצו לפאר המלה בעבור הריש כי ראיתים נקדו והוא נזהר נפשו
+                     מלט והוא חולף בקמץ והוא איננו בזקף ולא באתנח ולא בסוף פסוק</quote>. ע"כ.
+               </note>
+            </entry>
+         </entry>
 
       </body>
    </text>
