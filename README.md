@@ -13,13 +13,13 @@ The data we processed and modelled is available for query and download on eLinda
 
  
 
-# Contributors and collaborators
+## Contributors and collaborators
+
+DiJeSt Read:
+* Ben Kiessling, Robin Tissot, Daniel Stoekl, https://escripta.hypotheses.org
+
 DiJeSt Data:
 * Sinai Rusinek, project leader
 * Yael Netzer, DICTA, lead contributor 
 * Kepa J. Rodrigues, LOD consultant https://www.xplace.com/il/en/u/keparodriguez
 * Oren Mishali, Lab Engineer, Technion Data and Knowledge Laboratory (TDK) http://www.cs.technion.ac.il/~omishali/
-
-DiJeSt Read:
-* Ben Kiessling, Robin Tissot, Daniel Stoekl, https://escripta.hypotheses.org
-
