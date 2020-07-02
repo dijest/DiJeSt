@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>sample of pre-processed XML</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>provided from Asaf Bartov's copy. Sinai commented out unicode bits that will have to be replaced</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <entry>
+            <form>
+               <orth>אֲבַטִּחַ</orth></form>
+            <gramGrp><pos>שם עצם (זכר) (noun, masc.)</pos></gramGrp>
+            <sense>
+               [3], אֲבַטִּיחַ, ש"ז, מ"ר אֲבַטִּחִים, אֲבַטִּיחִים, <!--&mdash;--> פרי אדמה מלא משקה, ממין הקשואים והדלועים, wassermelone;
+                  <!--&nbsp;-->melon, past<!--&egrave;-->que;<!--&nbsp;-->water Melon: זכרנו את הדגה אשר נאכל במצרים חנם את הקשאים ואת הָאֲבַטִּחִים ואת החציר ואת הבצלים ואת השומים ([[מקור: במד' יא ה]]).
+                  <!--&mdash;--> ובתו"מ: איזהו גרנן למעשרות וכו' <hi>אבטיח</hi> משישלק ([[מקור: מעשר' א ה]]). האומר לחבירו הילך איסר זה וכו' <hi>באבטיח</hi> שאבור לי סופת ואוכל ([[מקור: שם ב ו]]). ובירק הקשואים והדלועים 
+                  <hi>והאבטיחים</hi> ([[מקור: שם א ד]]). <!--&mdash;--> [[הפניה:<!--&nbsp;-->שריק]], מי האבטיח, עי' זה. <!--&mdash;--> <!--&&deg;-->אֲבַטִּיחַ הוֹדִי, מין צמח יגדל <hi>בהודו</hi> ופריו דומה קצת בצורתו <hi>לאבטיח</hi>, ומלא משקה משיב נפש, melocactus: או יעשה האמבטי כלו מסחיטת הדלעת וכו' או <hi>מאבטיח הנדי</hi> ([[מקור: קאנון ג ב ג]]). וישתה העלול החלב החלוב שיעור נכון אם לא יהיה שם קדחת ומי השעורים ומי הדלעת ומי <hi>האבטיח ההנדי</hi> ([[מקור: שם]]).
+            </sense>
+         </entry>
+         
+      </body>
+  </text>
+</TEI>
